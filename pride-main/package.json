@@ -1,0 +1,27 @@
+{
+  "name": "pride",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/agile_group_pride/pride.git"
+  },
+  "author": "KT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/agile_group_pride/pride/issues"
+  },
+  "homepage": "https://gitlab.com/agile_group_pride/pride#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.2",
+    "nodemon": "^2.0.20",
+    "validator": "^13.7.0"
+  }
+}
